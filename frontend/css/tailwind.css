@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: MetropolisThin;
+    src: url(../fonts/MetropolisThin.otf);
+}
+
+@font-face {
+    font-family: MetropolisThinItalic;
+    src: url(../fonts/MetropolisThinItalic.otf);
+}
+
+@font-face {
+    font-family: MetropolisLight;
+    src: url(../fonts/MetropolisLight.otf);
+}
+
+@font-face {
+    font-family: MetropolisLightItalic;
+    src: url(../fonts/MetropolisLightItalic.otf);
+}
+
+@font-face {
+    font-family: MetropolisRegular;
+    src: url(../fonts/MetropolisRegular.otf);
+}
+
+@font-face {
+    font-family: MetropolisRegularItalic;
+    src: url(../fonts/MetropolisRegularItalic.otf);
+}
+
+@font-face {
+    font-family: MetropolisMedium;
+    src: url(../fonts/MetropolisMedium.otf);
+}
+
+@font-face {
+    font-family: MetropolisMediumItalic;
+    src: url(../fonts/MetropolisMediumItalic.otf);
+}
+
+@font-face {
+    font-family: MetropolisSemiBold;
+    src: url(../fonts/MetropolisSemiBold.otf);
+}
+
+@font-face {
+    font-family: MetropolisSemiBoldItalic;
+    src: url(../fonts/MetropolisSemiBoldItalic.otf);
+}
+
+@font-face {
+    font-family: MetropolisBold;
+    src: url(../fonts/MetropolisBold.otf);
+}
+
+@font-face {
+    font-family: MetropolisBoldItalic;
+    src: url(../fonts/MetropolisBoldItalic.otf);
+}
+
+@font-face {
+    font-family: MetropolisExtraBold;
+    src: url(../fonts/MetropolisExtraBold.otf);
+}
+
+@font-face {
+    font-family: MetropolisExtraBoldItalic;
+    src: url(../fonts/MetropolisExtraBoldItalic.otf);
+}
+
+@font-face {
+    font-family: MetropolisBlack;
+    src: url(../fonts/MetropolisBlack.otf);
+}
+
+@font-face {
+    font-family: MetropolisBlackItalic;
+    src: url(../fonts/MetropolisBlackItalic.otf);
+}
+
+/* .colors {
+    primary: #1e70ff;
+    secondary: #0042b4;
+    light: #e6e6e6;
+    dark: #363636;
+} */
+
+/* Icons from https://icons.getbootstrap.com/ */
