@@ -30,7 +30,23 @@ app.get('/ourteam', (req, res) => {
 });
 
 app.get('/resources', (req, res) => {
-    res.render('resources');
+    res.render('resources-folder/home');
+});
+
+app.get('/resources/hackjam-one', (req, res) => {
+    res.render('resources-folder/hackjam-one/hackjam-one');
+});
+
+app.get('/resources/dsa-arrays', (req, res) => {
+    res.render('resources-folder/dsaArrays');
+});
+
+app.get('/resources/home', (req, res) => {
+    res.render('resources-folder/home');
+});
+
+app.get('/resources/archived/spring2022', (req, res) => {
+    res.render('resources-folder/spring2022');
 });
 
 app.listen(PORT, () => {
