@@ -3,8 +3,13 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Our Team | ProgClubGSU</title>
+            <title>Resources | ProgClubGSU</title>
             <link rel="stylesheet" href="../css/styles.css">
+            <script src="https://cdn.tailwindcss.com"></script>
+            <!-- <script src="./tailwind3.js"></script> -->
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap"
+              rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
         </head>
         <body>
             <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
@@ -14,8 +19,8 @@
                     <span class="text-xl font-semibold whitespace-nowrap dark:text-white">ProgClubGSU</span>
                 </a>
                 <div class="flex md:order-2">
-                    <a href="https://discord.com/invite/pxJAqXX"><button type="button" class="text-white bg-primary hover:bg-primary focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-primary dark:hover:text-primary dark:hover:bg-white dark:focus:ring-blue-800" href="https://discord.com/invite/pxJAqXX">Join Us</button></a>
-                    <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
+                  <a href="https://discord.com/invite/pxJAqXX"><button type="button" class="text-white bg-primary hover:bg-primary focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-primary dark:hover:text-primary dark:hover:bg-white dark:focus:ring-blue-800" href="https://discord.com/invite/pxJAqXX">Join Us</button></a>
+                  <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
                       <span class="sr-only">Open main menu</span>
                       <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                   </button>
@@ -26,10 +31,10 @@
                       <a href="./home" class="block py-2 pl-3 pr-4 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-primary dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
                     </li>
                     <li>
-                      <a href="./ourteam" class="block py-2 pl-3 pr-4 text-primary bg-primary rounded md:bg-transparent md:text-primary md:p-0 dark:text-white">Our Team</a>
+                      <a href="./ourteam" class="block py-2 pl-3 pr-4 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-primary dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-gray-700">Our Team</a>
                     </li>
                     <li>
-                      <a href="./resources" class="block py-2 pl-3 pr-4 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-primary dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-gray-700">Resources</a>
+                      <a href="./resources" class="block py-2 pl-3 pr-4 text-primary bg-primary rounded md:bg-transparent md:text-primary md:p-0 dark:text-white">Resources</a>
                     </li>
                     <!-- <li>
                       <a href="./events" class="block py-2 pl-3 pr-4 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-primary dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-primary md:dark:hover:bg-transparent dark:border-gray-700">Events</a>
@@ -45,121 +50,190 @@
                     });
                 </script>
               </nav>
-            <section class="bg-dark">
-                <div class="container px-6 py-10 mx-auto">
-                    <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-primary">Meet our Executive Committee</h1>
-            
-                    <p class="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
-                        We take pride in ensuring that our members are well taken care of and that they are able to learn and grow as programmers.
-                    </p>
-            
-                    <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-                        <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-primary rounded-xl">
-                            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://www.pngitem.com/pimgs/m/514-5149286_profile-logo-hd-png-download.png" alt="">
-            
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Bee</h1>
-            
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">President</p>
-            
-                        </div>
-            
-                        <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-primary rounded-xl">
-                            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://www.pngitem.com/pimgs/m/514-5149286_profile-logo-hd-png-download.png" alt="">
-            
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Batya Zamansky</h1>
-            
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Admin</p>
-            
-                        </div>
-            
-                        <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-primary rounded-xl">
-                            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://www.pngitem.com/pimgs/m/514-5149286_profile-logo-hd-png-download.png" alt="">
-            
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Jenny</h1>
-            
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Admin</p>
-            
-                        </div>
-            
-                        <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-primary rounded-xl">
-                            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://www.pngitem.com/pimgs/m/514-5149286_profile-logo-hd-png-download.png" alt="">
-            
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">John Martin</h1>
-            
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Admin</p>
-            
-                        </div>
-            
-                        <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-primary rounded-xl">
-                            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://www.pngitem.com/pimgs/m/514-5149286_profile-logo-hd-png-download.png" alt="">
-            
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Shardul</h1>
-            
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Admin</p>
-            
-                        </div>
-                        <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-primary rounded-xl">
-                            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://www.pngitem.com/pimgs/m/514-5149286_profile-logo-hd-png-download.png" alt="">
-            
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Mustafa Masody</h1>
-            
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Executive Committee</p>
-            
-                        </div>
-                        <!-- fdsf -->
-            
-                        <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-primary rounded-xl">
-                            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://www.pngitem.com/pimgs/m/514-5149286_profile-logo-hd-png-download.png" alt="">
-            
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Humi</h1>
-            
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Executive Committee</p>
-            
-                        </div>
-            
-                        <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-primary rounded-xl">
-                            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://www.pngitem.com/pimgs/m/514-5149286_profile-logo-hd-png-download.png" alt="">
-            
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Ikenna</h1>
-            
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Executive Committee</p>
-            
-                        </div>
-            
-                        <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-primary rounded-xl">
-                            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://www.pngitem.com/pimgs/m/514-5149286_profile-logo-hd-png-download.png" alt="">
-            
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Sara</h1>
-            
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Executive Committee</p>
-            
-                        </div>
-                        <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-primary rounded-xl">
-                            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://www.pngitem.com/pimgs/m/514-5149286_profile-logo-hd-png-download.png" alt="">
-            
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">JenniferA</h1>
-            
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Executive Committee</p>
-            
-                        </div>
-                        <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-primary rounded-xl">
-                            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://www.pngitem.com/pimgs/m/514-5149286_profile-logo-hd-png-download.png" alt="">
-            
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">ssuzyy</h1>
-            
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Executive Committee</p>
-            
-                        </div>
-                    </div>
+
+
+
+
+              <section id="sectionB" class="md:h-screen mobile:h-auto bg-gradient-to-r from-green-400 to-blue-500">
+                <div id="content" class="flex relative md:ml-[300px] md:mt-0 md:h-auto mobile:h-auto">
                 </div>
-            </section>
-
-            <section class="bg-dark h-32">
-
-            </section>
 
 
-            <footer class="p-4 bg-white sm:p-6 dark:bg-gray-900">
+                <span class="absolute text-white text-2xl top-16 left-4 cursor-pointer" onclick="Openbar()">
+                    <i class="bi bi-filter-left px-2 bg-gray-900 rounded-md"></i>
+                  </span>
+                  <div class="sidebar fixed top-0 bottom-0 lg:left-0 left-[-300px] duration-1000
+                    p-2 w-[300px] overflow-y-auto text-center bg-gray-900 shadow h-screen">
+                    <div class="text-gray-100 text-xl">
+                      <div class="p-2.5 mt-1 flex items-center rounded-md ">
+                        <i class=" px-2 py-1 bg-blue-600 rounded-md"><img src="../images/gsu_logo.png" class="h-8 w-8"></i>
+                        <h1 class="text-[15px]  ml-3 text-xl text-gray-200 font-bold">Resources</h1>
+                        <i class="bi bi-x ml-20 cursor-pointer lg:hidden" onclick="Openbar()"></i>
+                      </div>
+                      <hr class="my-2 text-gray-600">
+                
+                      <div>
+                        <div class="p-2.5 mt-3 flex items-center rounded-md 
+                        px-4 duration-300 cursor-pointer  bg-gray-700">
+                          <i class="bi bi-search text-sm"></i>
+                          <input class="text-[15px] ml-4 w-full bg-transparent focus:outline-none" placeholder="Search" />
+                        </div>
+                
+                        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer  hover:bg-primary" onclick="Home()">
+                          <i class="bi bi-house-door-fill"></i>
+                          <span class="text-[15px] mt-1 font-MetropolisSemiBold ml-4 text-gray-200">Home</span>
+                        </div>
+                        <hr class="my-4 text-gray-600">
+
+
+                        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer  hover:bg-primary">
+                            <i class="bi bi-chat-left-text-fill"></i>
+                            <div class="flex justify-between w-full items-center" onclick="dropDownSpring2023()">
+                              <span class="text-[15px] font-MetropolisSemiBold ml-4 text-gray-200">Spring 2023</span>
+                              <span class="text-sm rotate-0" id="arrowSpring2023">
+                                <i class="bi bi-chevron-down"></i>
+                              </span>
+                            </div>
+                          </div>
+                          <div class=" leading-7 font-MetropolisSemiBold text-left text-sm font-thin mt-2 w-4/5 mx-auto hidden" id="submenuSpring2023">
+                            <a href="/resources/hackjam-one"><div>
+                              <h1 class="cursor-pointer p-2 bg-gray-700 rounded-md mt-1">HackJam 1: 1/27</h1>
+                          </div>
+                          </a>
+                          <a href="/resources/"
+                            <div >
+                                <h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">DSA: 1/20 - Arrays</h1>
+                            </div>
+
+                            
+                          </div>
+
+
+                        
+
+                
+                        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer  hover:bg-primary">
+                          <i class="bi bi-chat-left-text-fill"></i>
+                          <div class="flex justify-between w-full items-center" onclick="dropDownArchived()">
+                            <span class="text-[15px] font-MetropolisSemiBold ml-4 text-gray-200">Archived</span>
+                            <span class="text-sm rotate-0" id="arrow">
+                              <i class="bi bi-chevron-down"></i>
+                            </span>
+                          </div>
+                        </div>
+                        <div class=" leading-7 font-MetropolisSemiBold text-left text-sm font-thin mt-2 w-4/5 mx-auto hidden" id="submenu">
+                            <div onclick="archivedSpring2022()">
+                                <h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">Spring 2022 &amp; Earlier</h1>
+                            </div>
+                        </div>
+                
+                      </div>
+
+                    </div>
+
+                  </div>
+                
+                  <script>
+
+                    dropDownSpring2023();
+
+
+                    function Home(){
+                        // content div
+
+                        document.getElementById('content').innerHTML = ``;
+                        var content = document.getElementById('content');
+                        document.getElementById("sectionB").className = "md:h-screen mobile:h-auto bg-gradient-to-r from-green-400 to-blue-500";
+
+                        
+
+                        content.innerHTML = `
+                        <div class="flex flex-col">
+                            <h1 class="text-6xl text-white font-bold mt-10 ml-10">Dive deep into the Programming Club World...</h1>
+                            <!-- animate-bounce w-6 h-6 -->
+
+
+                            <div class="md:flex md:flex-row mobile:flex mobile:flex-col mobile:space-y-2">
+                                <div class="w-7/12">
+                                <div>
+                                    <div class="flex ml-10 mt-16">
+                                    <i class="bi bi-arrow-down-circle-fill text-6xl text-white animate-bounce"></i>
+                                    </div>
+                                </div>
+
+                                <div class="mt-8">
+                                    <h1 class="text-2xl text-white font-bold mt-10 ml-10">New to coding?</h1>
+                                    <p class="w-5/12 text-white font-MetropolisSemiBold text-lg ml-10 mt-2">No problem! We have countless lines of code, resources, and helpful videos to aid you in your programming journey! Take a browse through our docs!</p>
+                                </div>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                        `;
+
+                    }
+
+                    Home();
+
+
+
+                    function archivedSpring2022(){
+                        // content div
+                        document.getElementById('content').innerHTML = ``;
+                        var content = document.getElementById('content');
+
+                        document.getElementById("sectionB").className = "md:h-screen mobile:h-auto bg-gradient-to-r from-green-400 to-blue-500";
+
+
+                        {
+                            content.innerHTML = `
+
+                                <div class="flex flex-col">
+                                <h1 class="text-4xl text-white font-bold mt-10 ml-10">Spring 2022 &amp; Earlier</h1>
+
+                                <h1 class="mt-10 md:ml-10 mobile:ml-3 text-2xl text-white font-bold">DSA Prep</h1>
+
+                                <!-- Section 1: DSA Review - Trees -->
+                                <!-- Description: Video recording from DSA (Data Structures & Algorithms) Review: Trees. -->
+                                <!-- Video Link: https://youtu.be/ajF-bPMtuD4 -->
+
+                                <!-- For each section, you will need to create a div with the class "flex flex-col md:flex-row justify-between items-center" -->
+                                <!-- Inside this div, you will need an h1 with the title of the section, and a p with the description of the section, and a button for the video link -->
+
+                                <!-- create a rounded div with opacity 50% -->
+                                <div class="md:ml-10 mobile:ml-3 rounded-3xl bg-dark bg-opacity-50 p-10 mt-1">
+                                    <h1 class="text-2xl text-white font-bold">Section 1: DSA Review - Trees</h1>
+                                    <p class="text-white text-xl font-MetropolisSemiBold">Video recording from DSA (Data Structures & Algorithms) Review: Trees.</p>
+                                    <a href="https://youtu.be/ajF-bPMtuD4" target="_blank">
+                                        <button class="bg-primary text-white font-bold py-2 px-4 rounded-md mt-4 md:mt-0">Video Link</button>
+                                    </a>
+                                </div>
+                              </div>
+                            `;
+                        }
+                    }
+
+                    function dropDownArchived() {
+                      document.querySelector('#submenu').classList.toggle('hidden')
+                      document.querySelector('#arrow').classList.toggle('rotate-180')
+                    }
+
+                    function dropDownSpring2023(){
+                        document.querySelector('#submenuSpring2023').classList.toggle('hidden')
+                      document.querySelector('#arrowSpring2023').classList.toggle('rotate-180')
+                    }
+                
+                    function Openbar() {
+                      document.querySelector('.sidebar').classList.toggle('left-[-300px]')
+                    }
+                  </script>
+
+              </section>
+
+
+              <footer class=" p-4 bg-white sm:p-6 dark:bg-gray-900 md:w-10/12 md:ml-[300px]">
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0">
                         <a href="https://programmingclub-gsu.com" class="flex items-center">
@@ -229,5 +303,4 @@
                 </div>
               </footer>
         </body>
-        
-    </html>
+</html>
