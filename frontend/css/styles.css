@@ -1190,211 +1190,211 @@ video {
     content: "";
   }
 
-  2.1% {
+  2.09% {
     content: "C";
   }
 
-  3.38% {
+  3.37% {
     content: "Cl";
   }
 
-  4.77% {
+  5.01% {
     content: "Clu";
   }
 
-  7.16%, 15.63% {
+  6.86%, 15.33% {
     content: "Club";
   }
 
-  16.48% {
+  16.18% {
     content: "Clu";
   }
 
-  17.33% {
+  17.03% {
     content: "Cl";
   }
 
-  18.17% {
+  17.87% {
     content: "C";
   }
 
-  19.02% {
+  18.72% {
     content: "";
   }
 
-  21.12% {
+  20.08% {
     content: "I";
   }
 
-  22.72% {
+  22.16% {
     content: "Id";
   }
 
-  24.46% {
+  23.85% {
     content: "Ide";
   }
 
-  26.21% {
+  25.4% {
     content: "Idea";
   }
 
-  27.92%, 36.39% {
+  27.56%, 36.03% {
     content: "Ideas";
   }
 
-  37.24% {
+  36.88% {
     content: "Idea";
   }
 
-  38.09% {
+  37.73% {
     content: "Ide";
   }
 
-  38.94% {
+  38.57% {
     content: "Id";
   }
 
-  39.78% {
+  39.42% {
     content: "I";
   }
 
-  40.63% {
+  40.27% {
     content: "";
   }
 
-  42.14% {
+  41.94% {
     content: "I";
   }
 
-  44.33% {
+  43.81% {
     content: "In";
   }
 
-  45.59% {
+  45.32% {
     content: "Inn";
   }
 
-  47.53% {
+  47.51% {
     content: "Inno";
   }
 
-  48.83% {
+  48.9% {
     content: "Innov";
   }
 
-  50.61% {
+  50.51% {
     content: "Innova";
   }
 
-  52.88% {
+  52.35% {
     content: "Innovat";
   }
 
-  54.15% {
+  54.02% {
     content: "Innovati";
   }
 
-  56.35% {
+  55.94% {
     content: "Innovatio";
   }
 
-  57.5%, 65.98% {
+  57.17%, 65.65% {
     content: "Innovation";
   }
 
-  66.82% {
+  66.5% {
     content: "Innovatio";
   }
 
-  67.67% {
+  67.34% {
     content: "Innovati";
   }
 
-  68.52% {
+  68.19% {
     content: "Innovat";
   }
 
-  69.37% {
+  69.04% {
     content: "Innova";
   }
 
-  70.21% {
+  69.89% {
     content: "Innov";
   }
 
-  71.06% {
+  70.73% {
     content: "Inno";
   }
 
-  71.91% {
+  71.58% {
     content: "Inn";
   }
 
-  72.76% {
+  72.43% {
     content: "In";
   }
 
-  73.6% {
+  73.28% {
     content: "I";
   }
 
-  74.45% {
+  74.12% {
     content: "";
   }
 
-  75.85% {
+  75.71% {
     content: "F";
   }
 
-  77.98% {
+  77.03% {
     content: "Fu";
   }
 
-  79.38% {
+  79.01% {
     content: "Fut";
   }
 
-  80.93% {
+  80.96% {
     content: "Futu";
   }
 
-  83.27% {
+  82.87% {
     content: "Futur";
   }
 
-  84.51% {
+  83.8% {
     content: "Future";
   }
 
-  86.06%, 94.54% {
+  86.09%, 94.57% {
     content: "Futures";
   }
 
-  95.38% {
+  95.41% {
     content: "Future";
   }
 
-  96.23% {
+  96.26% {
     content: "Futur";
   }
 
-  97.08% {
+  97.11% {
     content: "Futu";
   }
 
-  97.93% {
+  97.96% {
     content: "Fut";
   }
 
-  98.77% {
+  98.8% {
     content: "Fu";
   }
 
-  99.62% {
+  99.65% {
     content: "F";
   }
 
-  100.47% {
+  100.5% {
     content: "";
   }
 }
@@ -1631,6 +1631,10 @@ video {
 
 @media (min-width: 320px) {
 
+  .mobile\:invisible {
+    visibility: hidden;
+  }
+
   .mobile\:mt-10 {
     margin-top: 2.5rem;
   }
@@ -1713,6 +1717,14 @@ video {
 }
 
 @media (min-width: 480px) {
+
+  .tablet\:visible {
+    visibility: visible;
+  }
+
+  .tablet\:hidden {
+    display: none;
+  }
 
   .tablet\:text-3xl {
     font-size: 1.875rem;
